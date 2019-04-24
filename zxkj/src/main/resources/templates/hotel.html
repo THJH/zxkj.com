@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>无标题文档</title>
+    <link th:href="@{/css/style.css}"  href="../static/css/style.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" th:src="@{/js/jquery.js}" src="../static/js/jquery.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".addclick").click(function () {
+                $(".tip").fadeIn(200);
+            });
+
+            $(".tiptop a").click(function () {
+                $(".tip").fadeOut(200);
+            });
+
+            $(".sure").click(function () {
+                $(".tip").fadeOut(100);
+            });
+
+            $(".cancel").click(function () {
+                $(".tip").fadeOut(100);
+            });
+            //根据id删除酒店信息
+            $(".delectHotel").click(function () {
+               var obj = document.getElementsByName("hotelcheckbox");
+               var check_hotel = [];
+               for(i in obj){
+                   if(obj[i].checked)check_hotel.push(obj[i].value)
+               }
+               if(check_hotel.length<=0)alert("您没有选择要删除的内容！！！");
+               if(check_hotel.length>0) {
+                   $.ajax({
+                       type: "POST", //提交方式
+                       url: "../delete", //路径
+                       data: {
+                           "ids": check_hotel.join(","),
+                           "pageNum": document.getElementById("pageNum").innerText
+                       },
+                       success: function (result) {//返回数据根据结果进行相应的处理
+                           if (!"".replace(result)|| null!=result) {
+                            $("#allBody").html(result);//刷新整个body页面的html
+                            alert("删除成功！！");
+                           }else{
+                               alert("删除失败！！");
+                           }
+                       }
+                   });
+               }
+            });
+        });
+    </script>
+</head>
+
+
+<body id="allBody">
+
+<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">数据表</a></li>
+        <li><a href="#">基本内容</a></li>
+    </ul>
+</div>
+
+<div class="rightinfo">
+
+    <div class="tools">
+
+        <ul class="toolbar">
+            <li class="addclick"><span><img th:src="@{/images/t01.png}" src="../static/images/t01.png"/></span>添加</li>
+            <li class="click"><span><img th:src="@{/images/t02.png}" src="../static/images/t02.png"/></span>修改</li>
+            <li class="delectHotel"><span><img th:src="@{/images/t03.png}" src="../static/images/t03.png"/></span>删除</li>
+            <li><span><img th:src="@{/images/t04.png}" src="../static/images/t04.png"/></span>统计</li>
+        </ul>
+
+
+        <ul class="toolbar1">
+            <li><span><img th:src="@{/images/t05.png}" src="../static/images/t05.png"/></span>设置</li>
+        </ul>
+
+    </div>
+
+<div style="overflow:scroll;">
+    <table class="tablelist">
+        <thead>
+        <tr>
+            <th nowrap><input name="" type="checkbox" value="" checked="checked"/></th>
+            <th nowrap>编号<i class="sort"><img th:src="@{/images/px.gif}" src="../static/images/px.gif"/></i></th>
+            <th nowrap>酒店名称</th>
+            <th nowrap>酒店类型</th>
+            <th nowrap>星级</th>
+            <th nowrap>酒店网址</th>
+            <th nowrap>酒店LOGO</th>
+            <th nowrap>地址</th>
+            <th nowrap>经纬度</th>
+            <th nowrap>介绍</th>
+            <th nowrap>状态</th>
+            <th nowrap>开业时间</th>
+            <th nowrap>最后装修时间</th>
+            <th nowrap>酒店电话</th>
+            <th nowrap>总评分</th>
+            <th nowrap>服务评分</th>
+            <th nowrap>卫生评分</th>
+            <th nowrap>位置评分</th>
+            <th nowrap>设置评分</th>
+            <th nowrap>押金</th>
+            <th nowrap>最早入住时间</th>
+            <th nowrap>最晚入住时间</th>
+            <th nowrap>最晚离店时间</th>
+            <th nowrap>最晚取消时间</th>
+            <th nowrap>周末设定</th>
+            <th nowrap>钟点房最早开始时间</th>
+            <th nowrap>钟点房最晚结束时间</th>
+            <th nowrap>钟点房最少时间</th>
+            <th nowrap>酒店加盟时间</th>
+            <th nowrap>酒店信息最后一次信息修改时间</th>
+            <th nowrap>其它</th>
+            <th nowrap>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+            <div th:each="hotel : ${pageBean.records}"> <!-- 遍历整个div-p，不推荐-->
+                <tr>
+                    <td><input name="hotelcheckbox" type="checkbox" th:value="${hotel.getId()}"/></td>
+                    <td nowrap><zxkj th:text="${hotel.getId()}" /></td>
+                    <td nowrap><zxkj th:text="${hotel.getName()}" /></td>
+                    <td nowrap><zxkj th:text="${hotel.getType()}" /></td>
+                    <td nowrap><zxkj th:text="${hotel.getStar()}" /></td>
+                    <td nowrap><zxkj th:text="${hotel.getUrl()}" /></td>
+                    <td nowrap><zxkj th:text="${hotel.getLogo()}" /></td>
+                    <td nowrap>
+                        <zxkj th:text="${hotel.getProvinceCityDistrict()}" />
+                        <zxkj th:text="${hotel.getStreet()}" />
+                        <zxkj th:text="${hotel.getAddress()}" />
+                    </td>
+                    <td nowrap>
+                        <zxkj th:text="${hotel.getLatitude()}" />,
+                        <zxkj th:text="${hotel.getLongitude()}" />
+                    </td>
+                    <td nowrap><zxkj th:text="${hotel.getIntroduction()}" /></td>
+                    <td nowrap><zxkj th:text="${hotel.getState()}" /></td>
+                    <td nowrap><zxkj th:text="${hotel.getOpenTimeStr()}"></zxkj></td>
+                    <td nowrap><zxkj th:text="${hotel.getRenovationTimeStr()}"/></td>
+                    <td nowrap><zxkj th:text="${hotel.getTels()}"></zxkj></td>
+                    <td nowrap><zxkj th:text="${hotel.getRate()}"></zxkj></td>
+                    <td nowrap><zxkj th:text="${hotel.getServiceRate()}"></zxkj></td>
+                    <td nowrap><txkj th:text="${hotel.getHygieneRate()}"></txkj></td>
+                    <td nowrap><txkj th:text="${hotel.getPositionRate()}"></txkj></td>
+                    <td nowrap><zxkj th:text="${hotel.getDeviceRate()}"></zxkj></td>
+                    <td nowrap><zxkj th:text="${hotel.getDeposit()}"></zxkj></td>
+                    <td nowrap><zxkj th:text="${hotel.getStartTimeStr()}"></zxkj></td>
+                    <td nowrap><zxkj th:text="${hotel.getEndTimeStr()}"></zxkj></td>
+                    <td nowrap><zxkj th:text="${hotel.getCheckoutTimeStr()}"></zxkj></td>
+                    <td nowrap><zxkj th:text="${hotel.getCancelTimeStr()}"></zxkj></td>
+                    <td nowrap><zxkj th:text="${hotel.getWeekend()}"></zxkj></td>
+                    <td nowrap><zxkj th:text="${hotel.getHourlyStartTimeStr()}"></zxkj></td>
+                    <td nowrap><zxkj th:text="${hotel.getHourlyEndTimeStr()}"></zxkj></td>
+                    <td nowrap><zxkj th:text="${hotel.getHourlyHours()}"></zxkj></td>
+                    <td nowrap><zxkj th:text="${hotel.getCreateTimeStr()}"></zxkj></td>
+                    <td nowrap><zxkj th:text="${hotel.getUpdateTimeStr()}"></zxkj></td>
+                    <td nowrap><zxkj th:text="${hotel.getInfo()}"></zxkj></td>
+
+                </tr>
+            </div>
+        </tbody>
+    </table></div>
+
+
+    <div class="pagin">
+        <div class="message">
+            共<i class="blue"  th:text="${pageBean.getTotalRecordsNum()}" ></i> 条记录，当前显示第&nbsp;
+            <i class="blue" id="pageNum" th:text="${pageBean.getPageNum()}">&nbsp;</i>页
+        </div>
+        <ul class="paginList">
+            <li class="paginItem"><a href="javascript:;"><span class="pagepre"></span></a></li>
+            <zxkj th:each="i : ${#numbers.sequence(1,__${pageBean.totalPageNum}__)}">
+                <li class="paginItem"><a href="javascript:;" th:text="${i}" th:if="${i != pageBean.getPageNum() && i<5}"> </a></li>
+                <li class="paginItem current"><a href="javascript:;" th:text="${i}" th:if="${i ==pageBean.getPageNum()}"> </a></li>
+                <li class="paginItem more"><a href="javascript:;"  th:if="${i == 5}">...</a></li>
+            </zxkj>
+            <li class="paginItem"><a href="javascript:;" th:text="${pageBean.getTotalPageNum()}"></a></li>
+            <li class="paginItem"><a href="javascript:;"><span class="pagenxt"></span></a></li>
+        </ul>
+    </div>
+
+    <div class="tip">
+        <div class="tiptop"><span>提示信息</span><a></a></div>
+        <div class="tipinfo">
+            <span><img th:src="@{/images/ticon.png}"/></span>
+            <div class="tipright">
+                <p>是否确认对信息的修改？</p>
+                <cite>如果是请点击确定按钮 ，否则请点取消。</cite>
+            </div>
+        </div>
+        <div class="tipbtn">
+            <input name="" type="button" class="sure" value="确定"/>&nbsp;
+            <input name="" type="button" class="cancel" value="取消"/>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $('.tablelist tbody tr:odd').addClass('odd');
+</script>
+
+</body>
+
+</html>

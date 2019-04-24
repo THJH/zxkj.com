@@ -1,0 +1,524 @@
+2019-04-23 09:47:40.627 [restartedMain] INFO  com.zxkj.ZxkjApplication - Starting ZxkjApplication on DESKTOP-UAV5U1C with PID 17204 (F:\WorkSpace\zxkj\target\classes started by admin in F:\WorkSpace\zxkj)
+2019-04-23 09:47:40.630 [restartedMain] INFO  com.zxkj.ZxkjApplication - The following profiles are active: dev
+2019-04-23 09:47:40.693 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-23 09:47:40.694 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-23 09:47:42.920 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 09:47:42.922 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 09:47:42.969 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+2019-04-23 09:47:43.325 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a47dbf1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 09:47:43.457 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.zxkj.config.RedisConfig$$EnhancerBySpringCGLIB$$22266fcb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 09:47:43.882 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-04-23 09:47:43.894 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-04-23 09:47:43.900 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-23 09:47:43.900 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-23 09:47:44.017 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring embedded WebApplicationContext
+2019-04-23 09:47:44.017 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3318 ms
+2019-04-23 09:47:46.046 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 09:47:46.185 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-23 09:47:46.582 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-23 09:47:46.615 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-04-23 09:47:46.636 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path '/zxkj'
+2019-04-23 09:47:46.638 [restartedMain] INFO  com.zxkj.ZxkjApplication - Started ZxkjApplication in 6.867 seconds (JVM running for 10.652)
+2019-04-23 09:48:02.942 [http-nio-80-exec-3] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 09:48:02.943 [http-nio-80-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-23 09:48:02.957 [http-nio-80-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2019-04-23 09:48:03.005 [http-nio-80-exec-3] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 09:48:03.006 [http-nio-80-exec-3] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 09:48:03.006 [http-nio-80-exec-3] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 09:48:03.348 [http-nio-80-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-23 09:49:56.310 [http-nio-80-exec-10] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 09:49:56.310 [http-nio-80-exec-10] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 09:49:56.310 [http-nio-80-exec-10] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 09:49:56.311 [http-nio-80-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-23 09:49:59.107 [http-nio-80-exec-17] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 09:49:59.108 [http-nio-80-exec-17] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 09:49:59.108 [http-nio-80-exec-17] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 09:49:59.108 [http-nio-80-exec-17] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-23 09:50:17.800 [restartedMain] INFO  com.zxkj.ZxkjApplication - Starting ZxkjApplication on DESKTOP-UAV5U1C with PID 18384 (F:\WorkSpace\zxkj\target\classes started by admin in F:\WorkSpace\zxkj)
+2019-04-23 09:50:17.803 [restartedMain] INFO  com.zxkj.ZxkjApplication - The following profiles are active: dev
+2019-04-23 09:50:17.845 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-23 09:50:17.845 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-23 09:50:19.396 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 09:50:19.398 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 09:50:19.447 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+2019-04-23 09:50:19.784 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$175674d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 09:50:19.877 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.zxkj.config.RedisConfig$$EnhancerBySpringCGLIB$$af3508ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 09:50:20.367 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-04-23 09:50:20.379 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-04-23 09:50:20.386 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-23 09:50:20.387 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-23 09:50:20.508 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring embedded WebApplicationContext
+2019-04-23 09:50:20.508 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2663 ms
+2019-04-23 09:50:22.248 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 09:50:22.394 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-23 09:50:22.785 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-23 09:50:22.823 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-04-23 09:50:22.846 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path '/zxkj'
+2019-04-23 09:50:22.848 [restartedMain] INFO  com.zxkj.ZxkjApplication - Started ZxkjApplication in 5.434 seconds (JVM running for 6.755)
+2019-04-23 09:52:38.812 [http-nio-80-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 09:52:38.812 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-23 09:52:38.823 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-04-23 09:52:38.853 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 09:52:38.853 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 09:52:38.853 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 09:52:38.901 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-23 09:52:38.992 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-23 09:52:39.271 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - RESPONSE : hotel
+2019-04-23 09:56:35.085 [restartedMain] INFO  com.zxkj.ZxkjApplication - Starting ZxkjApplication on DESKTOP-UAV5U1C with PID 4604 (F:\WorkSpace\zxkj\target\classes started by admin in F:\WorkSpace\zxkj)
+2019-04-23 09:56:35.088 [restartedMain] INFO  com.zxkj.ZxkjApplication - The following profiles are active: dev
+2019-04-23 09:56:35.130 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-23 09:56:35.130 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-23 09:56:36.816 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 09:56:36.818 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 09:56:36.887 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55ms. Found 0 repository interfaces.
+2019-04-23 09:56:37.276 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ed5055cb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 09:56:37.467 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.zxkj.config.RedisConfig$$EnhancerBySpringCGLIB$$852ee9a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 09:56:38.022 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-04-23 09:56:38.035 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-04-23 09:56:38.044 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-23 09:56:38.045 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-23 09:56:38.192 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring embedded WebApplicationContext
+2019-04-23 09:56:38.192 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3061 ms
+2019-04-23 09:56:40.522 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 09:56:40.690 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-23 09:56:41.183 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-23 09:56:41.233 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-04-23 09:56:41.258 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path '/zxkj'
+2019-04-23 09:56:41.260 [restartedMain] INFO  com.zxkj.ZxkjApplication - Started ZxkjApplication in 6.691 seconds (JVM running for 8.35)
+2019-04-23 09:57:54.340 [http-nio-80-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 09:57:54.340 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-23 09:57:54.353 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2019-04-23 09:57:54.380 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 09:57:54.380 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 09:57:54.381 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 09:57:54.432 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-23 09:57:54.533 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-23 09:57:54.959 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - RESPONSE : hotel
+2019-04-23 10:05:34.487 [restartedMain] INFO  com.zxkj.ZxkjApplication - Starting ZxkjApplication on DESKTOP-UAV5U1C with PID 19096 (F:\WorkSpace\zxkj\target\classes started by admin in F:\WorkSpace\zxkj)
+2019-04-23 10:05:34.490 [restartedMain] INFO  com.zxkj.ZxkjApplication - The following profiles are active: dev
+2019-04-23 10:05:34.540 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-23 10:05:34.540 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-23 10:05:36.543 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 10:05:36.545 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 10:05:36.690 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 120ms. Found 0 repository interfaces.
+2019-04-23 10:05:37.532 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$78f7bfa5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 10:05:37.718 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.zxkj.config.RedisConfig$$EnhancerBySpringCGLIB$$10d6537f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 10:05:38.649 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-04-23 10:05:38.668 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-04-23 10:05:38.678 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-23 10:05:38.679 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-23 10:05:38.874 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring embedded WebApplicationContext
+2019-04-23 10:05:38.874 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4334 ms
+2019-04-23 10:05:40.830 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 10:05:40.978 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-23 10:05:41.365 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-23 10:05:41.401 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-04-23 10:05:41.424 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path '/zxkj'
+2019-04-23 10:05:41.426 [restartedMain] INFO  com.zxkj.ZxkjApplication - Started ZxkjApplication in 7.685 seconds (JVM running for 9.646)
+2019-04-23 10:05:46.301 [http-nio-80-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 10:05:46.302 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-23 10:05:46.323 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 21 ms
+2019-04-23 10:05:46.367 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 10:05:46.367 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 10:05:46.367 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 10:05:46.441 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-23 10:05:46.577 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-23 10:05:46.833 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - RESPONSE : hotel
+2019-04-23 16:41:27.660 [restartedMain] INFO  com.zxkj.ZxkjApplication - Starting ZxkjApplication on DESKTOP-UAV5U1C with PID 4628 (F:\WorkSpace\zxkj\target\classes started by admin in F:\WorkSpace\zxkj)
+2019-04-23 16:41:27.764 [restartedMain] INFO  com.zxkj.ZxkjApplication - The following profiles are active: dev
+2019-04-23 16:41:28.736 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-23 16:41:28.737 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-23 16:41:45.437 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 16:41:45.486 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 16:41:46.221 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 261ms. Found 0 repository interfaces.
+2019-04-23 16:41:49.700 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$94ecc135] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 16:41:51.187 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.zxkj.config.RedisConfig$$EnhancerBySpringCGLIB$$2ccb550f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 16:42:01.151 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-04-23 16:42:01.354 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-04-23 16:42:01.485 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-23 16:42:01.485 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-23 16:42:02.779 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring embedded WebApplicationContext
+2019-04-23 16:42:02.780 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 34042 ms
+2019-04-23 16:42:18.574 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 16:42:19.674 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-23 16:42:23.055 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-23 16:42:23.208 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-04-23 16:42:23.283 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path '/zxkj'
+2019-04-23 16:42:23.287 [restartedMain] INFO  com.zxkj.ZxkjApplication - Started ZxkjApplication in 64.851 seconds (JVM running for 81.675)
+2019-04-23 16:42:47.994 [http-nio-80-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 16:42:47.995 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-23 16:42:48.019 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+2019-04-23 16:42:48.401 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 16:42:48.401 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 16:42:48.402 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 16:42:48.648 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-23 16:42:49.732 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-23 16:42:51.160 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - RESPONSE : hotel
+2019-04-23 16:42:52.588 [http-nio-80-exec-2] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 16:42:52.588 [http-nio-80-exec-2] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 16:42:52.588 [http-nio-80-exec-2] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 16:42:52.747 [http-nio-80-exec-2] INFO  com.zxkj.aop.WebLogAspect - RESPONSE : hotel
+2019-04-23 16:48:38.648 [restartedMain] INFO  com.zxkj.ZxkjApplication - Starting ZxkjApplication on DESKTOP-UAV5U1C with PID 19812 (F:\WorkSpace\zxkj\target\classes started by admin in F:\WorkSpace\zxkj)
+2019-04-23 16:48:38.651 [restartedMain] INFO  com.zxkj.ZxkjApplication - The following profiles are active: dev
+2019-04-23 16:48:38.701 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-23 16:48:38.701 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-23 16:48:40.660 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 16:48:40.670 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 16:48:40.748 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52ms. Found 0 repository interfaces.
+2019-04-23 16:48:41.437 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f80dad07] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 16:48:41.725 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.zxkj.config.RedisConfig$$EnhancerBySpringCGLIB$$8fec40e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 16:48:42.658 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-04-23 16:48:42.679 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-04-23 16:48:42.692 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-23 16:48:42.693 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-23 16:48:42.960 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring embedded WebApplicationContext
+2019-04-23 16:48:42.962 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4261 ms
+2019-04-23 16:48:46.606 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 16:48:46.803 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-23 16:48:47.284 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-23 16:48:47.318 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-04-23 16:48:47.340 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path '/zxkj'
+2019-04-23 16:48:47.342 [restartedMain] INFO  com.zxkj.ZxkjApplication - Started ZxkjApplication in 9.317 seconds (JVM running for 12.142)
+2019-04-23 16:48:53.564 [http-nio-80-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 16:48:53.565 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-23 16:48:53.577 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-04-23 16:48:53.617 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 16:48:53.618 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 16:48:53.618 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 16:48:53.674 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-23 16:48:53.805 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-23 16:48:54.331 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - RESPONSE : hotel
+2019-04-23 18:49:37.787 [restartedMain] INFO  com.zxkj.ZxkjApplication - Starting ZxkjApplication on DESKTOP-UAV5U1C with PID 3480 (F:\WorkSpace\zxkj\target\classes started by admin in F:\WorkSpace\zxkj)
+2019-04-23 18:49:37.791 [restartedMain] INFO  com.zxkj.ZxkjApplication - The following profiles are active: dev
+2019-04-23 18:49:37.850 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-23 18:49:37.850 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-23 18:49:39.904 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 18:49:39.907 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 18:49:39.973 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50ms. Found 0 repository interfaces.
+2019-04-23 18:49:40.636 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3d06afb9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 18:49:41.021 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.zxkj.config.RedisConfig$$EnhancerBySpringCGLIB$$d4e54393] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 18:49:41.788 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-04-23 18:49:41.808 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-04-23 18:49:41.829 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-23 18:49:41.830 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-23 18:49:42.080 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring embedded WebApplicationContext
+2019-04-23 18:49:42.081 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4231 ms
+2019-04-23 18:49:45.647 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 18:49:45.866 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-23 18:49:46.405 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-23 18:49:46.451 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-04-23 18:49:46.479 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path '/zxkj'
+2019-04-23 18:49:46.482 [restartedMain] INFO  com.zxkj.ZxkjApplication - Started ZxkjApplication in 9.904 seconds (JVM running for 12.175)
+2019-04-23 18:50:07.374 [http-nio-80-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 18:50:07.374 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-23 18:50:07.387 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-04-23 18:50:07.420 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 18:50:07.420 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 18:50:07.420 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 18:50:07.509 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-23 18:50:07.653 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-23 18:50:08.342 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - RESPONSE : hotel
+2019-04-23 18:56:07.990 [restartedMain] INFO  com.zxkj.ZxkjApplication - Starting ZxkjApplication on DESKTOP-UAV5U1C with PID 13564 (F:\WorkSpace\zxkj\target\classes started by admin in F:\WorkSpace\zxkj)
+2019-04-23 18:56:07.993 [restartedMain] INFO  com.zxkj.ZxkjApplication - The following profiles are active: dev
+2019-04-23 18:56:08.098 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-23 18:56:08.099 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-23 18:56:11.145 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 18:56:11.148 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 18:56:11.272 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 89ms. Found 0 repository interfaces.
+2019-04-23 18:56:11.951 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$83105de3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 18:56:12.282 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.zxkj.config.RedisConfig$$EnhancerBySpringCGLIB$$1aeef1bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 18:56:13.142 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-04-23 18:56:13.162 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-04-23 18:56:13.173 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-23 18:56:13.173 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-23 18:56:13.441 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring embedded WebApplicationContext
+2019-04-23 18:56:13.442 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5332 ms
+2019-04-23 18:56:16.426 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 18:56:16.567 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-23 18:56:17.013 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-23 18:56:17.048 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-04-23 18:56:17.070 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path '/zxkj'
+2019-04-23 18:56:17.073 [restartedMain] INFO  com.zxkj.ZxkjApplication - Started ZxkjApplication in 9.714 seconds (JVM running for 12.08)
+2019-04-23 18:56:21.996 [http-nio-80-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 18:56:21.996 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-23 18:56:22.010 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2019-04-23 18:56:22.053 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 18:56:22.054 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 18:56:22.054 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 18:56:22.129 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-23 18:56:22.281 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-23 18:56:22.816 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - RESPONSE : hotel
+2019-04-23 19:04:44.621 [restartedMain] INFO  com.zxkj.ZxkjApplication - Starting ZxkjApplication on DESKTOP-UAV5U1C with PID 4216 (F:\WorkSpace\zxkj\target\classes started by admin in F:\WorkSpace\zxkj)
+2019-04-23 19:04:44.623 [restartedMain] INFO  com.zxkj.ZxkjApplication - The following profiles are active: dev
+2019-04-23 19:04:44.687 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-23 19:04:44.687 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-23 19:04:47.453 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 19:04:47.458 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 19:04:47.563 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79ms. Found 0 repository interfaces.
+2019-04-23 19:04:48.469 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c7d9557e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 19:04:48.730 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.zxkj.config.RedisConfig$$EnhancerBySpringCGLIB$$5fb7e958] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 19:04:49.261 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-04-23 19:04:49.279 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-04-23 19:04:49.291 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-23 19:04:49.292 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-23 19:04:49.464 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring embedded WebApplicationContext
+2019-04-23 19:04:49.464 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4777 ms
+2019-04-23 19:04:51.712 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 19:04:51.858 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-23 19:04:52.237 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-23 19:04:52.270 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-04-23 19:04:52.293 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path '/zxkj'
+2019-04-23 19:04:52.296 [restartedMain] INFO  com.zxkj.ZxkjApplication - Started ZxkjApplication in 8.584 seconds (JVM running for 12.356)
+2019-04-23 19:04:56.697 [http-nio-80-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 19:04:56.697 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-23 19:04:56.713 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2019-04-23 19:04:56.757 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 19:04:56.757 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 19:04:56.757 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 19:04:56.834 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-23 19:04:56.972 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-23 19:04:57.484 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - RESPONSE : hotel
+2019-04-23 19:21:05.992 [restartedMain] INFO  com.zxkj.ZxkjApplication - Starting ZxkjApplication on DESKTOP-UAV5U1C with PID 12872 (F:\WorkSpace\zxkj\target\classes started by admin in F:\WorkSpace\zxkj)
+2019-04-23 19:21:05.998 [restartedMain] INFO  com.zxkj.ZxkjApplication - The following profiles are active: dev
+2019-04-23 19:21:06.074 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-23 19:21:06.074 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-23 19:21:08.843 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 19:21:08.848 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 19:21:08.944 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67ms. Found 0 repository interfaces.
+2019-04-23 19:21:09.660 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5c867435] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 19:21:10.003 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.zxkj.config.RedisConfig$$EnhancerBySpringCGLIB$$f465080f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 19:21:10.825 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-04-23 19:21:10.847 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-04-23 19:21:10.861 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-23 19:21:10.862 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-23 19:21:11.121 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring embedded WebApplicationContext
+2019-04-23 19:21:11.121 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5047 ms
+2019-04-23 19:21:13.828 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 19:21:13.985 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-23 19:21:14.416 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-23 19:21:14.450 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-04-23 19:21:14.473 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path '/zxkj'
+2019-04-23 19:21:14.476 [restartedMain] INFO  com.zxkj.ZxkjApplication - Started ZxkjApplication in 9.296 seconds (JVM running for 11.248)
+2019-04-23 19:22:12.336 [http-nio-80-exec-2] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 19:22:12.336 [http-nio-80-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-23 19:22:12.351 [http-nio-80-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2019-04-23 19:22:12.384 [http-nio-80-exec-2] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 19:22:12.384 [http-nio-80-exec-2] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 19:22:12.384 [http-nio-80-exec-2] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 19:22:12.450 [http-nio-80-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-23 19:22:12.567 [http-nio-80-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-23 19:22:12.958 [http-nio-80-exec-2] INFO  com.zxkj.aop.WebLogAspect - RESPONSE : hotel
+2019-04-23 19:29:04.903 [restartedMain] INFO  com.zxkj.ZxkjApplication - Starting ZxkjApplication on DESKTOP-UAV5U1C with PID 1452 (F:\WorkSpace\zxkj\target\classes started by admin in F:\WorkSpace\zxkj)
+2019-04-23 19:29:04.908 [restartedMain] INFO  com.zxkj.ZxkjApplication - The following profiles are active: dev
+2019-04-23 19:29:04.959 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-23 19:29:04.959 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-23 19:29:06.722 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 19:29:06.724 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 19:29:06.764 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+2019-04-23 19:29:07.195 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c94a00f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 19:29:07.371 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.zxkj.config.RedisConfig$$EnhancerBySpringCGLIB$$a47333e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 19:29:08.001 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-04-23 19:29:08.014 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-04-23 19:29:08.022 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-23 19:29:08.022 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-23 19:29:08.183 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring embedded WebApplicationContext
+2019-04-23 19:29:08.183 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3224 ms
+2019-04-23 19:29:10.439 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 19:29:10.602 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-23 19:29:11.091 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-23 19:29:11.155 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-04-23 19:29:11.194 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path '/zxkj'
+2019-04-23 19:29:11.199 [restartedMain] INFO  com.zxkj.ZxkjApplication - Started ZxkjApplication in 6.742 seconds (JVM running for 8.34)
+2019-04-23 19:29:31.880 [http-nio-80-exec-3] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 19:29:31.881 [http-nio-80-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-23 19:29:31.894 [http-nio-80-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2019-04-23 19:29:31.921 [http-nio-80-exec-3] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 19:29:31.921 [http-nio-80-exec-3] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 19:29:31.922 [http-nio-80-exec-3] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 19:29:31.967 [http-nio-80-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-23 19:29:32.044 [http-nio-80-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-23 19:29:32.503 [http-nio-80-exec-3] INFO  com.zxkj.aop.WebLogAspect - RESPONSE : hotel
+2019-04-23 19:31:42.107 [restartedMain] INFO  com.zxkj.ZxkjApplication - Starting ZxkjApplication on DESKTOP-UAV5U1C with PID 13916 (F:\WorkSpace\zxkj\target\classes started by admin in F:\WorkSpace\zxkj)
+2019-04-23 19:31:42.109 [restartedMain] INFO  com.zxkj.ZxkjApplication - The following profiles are active: dev
+2019-04-23 19:31:42.156 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-23 19:31:42.156 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-23 19:31:43.610 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 19:31:43.612 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 19:31:43.676 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48ms. Found 0 repository interfaces.
+2019-04-23 19:31:43.998 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1a3df3db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 19:31:44.146 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.zxkj.config.RedisConfig$$EnhancerBySpringCGLIB$$b21c87b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 19:31:44.560 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-04-23 19:31:44.571 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-04-23 19:31:44.577 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-23 19:31:44.577 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-23 19:31:44.691 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring embedded WebApplicationContext
+2019-04-23 19:31:44.691 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2534 ms
+2019-04-23 19:31:46.258 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 19:31:46.398 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-23 19:31:46.773 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-23 19:31:46.816 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-04-23 19:31:46.840 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path '/zxkj'
+2019-04-23 19:31:46.843 [restartedMain] INFO  com.zxkj.ZxkjApplication - Started ZxkjApplication in 5.178 seconds (JVM running for 6.58)
+2019-04-23 19:31:53.890 [http-nio-80-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 19:31:53.890 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-23 19:31:53.902 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-04-23 19:31:53.934 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 19:31:53.934 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 19:31:53.934 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 19:31:53.982 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-23 19:31:54.063 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-23 19:31:54.485 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - RESPONSE : hotel
+2019-04-23 19:36:21.353 [restartedMain] INFO  com.zxkj.ZxkjApplication - Starting ZxkjApplication on DESKTOP-UAV5U1C with PID 13560 (F:\WorkSpace\zxkj\target\classes started by admin in F:\WorkSpace\zxkj)
+2019-04-23 19:36:21.358 [restartedMain] INFO  com.zxkj.ZxkjApplication - The following profiles are active: dev
+2019-04-23 19:36:21.413 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-23 19:36:21.413 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-23 19:36:23.213 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 19:36:23.215 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 19:36:23.251 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2019-04-23 19:36:23.611 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ce0d724e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 19:36:23.773 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.zxkj.config.RedisConfig$$EnhancerBySpringCGLIB$$65ec0628] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 19:36:24.199 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-04-23 19:36:24.210 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-04-23 19:36:24.217 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-23 19:36:24.217 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-23 19:36:24.352 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring embedded WebApplicationContext
+2019-04-23 19:36:24.353 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2939 ms
+2019-04-23 19:36:26.007 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 19:36:26.156 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-23 19:36:26.539 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-23 19:36:26.573 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-04-23 19:36:26.595 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path '/zxkj'
+2019-04-23 19:36:26.597 [restartedMain] INFO  com.zxkj.ZxkjApplication - Started ZxkjApplication in 5.799 seconds (JVM running for 7.808)
+2019-04-23 19:36:31.137 [http-nio-80-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 19:36:31.137 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-23 19:36:31.148 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-04-23 19:36:31.175 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 19:36:31.175 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 19:36:31.175 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 19:36:31.224 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-23 19:36:31.313 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-23 19:36:31.782 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - RESPONSE : hotel
+2019-04-23 19:42:06.639 [restartedMain] INFO  com.zxkj.ZxkjApplication - Starting ZxkjApplication on DESKTOP-UAV5U1C with PID 19296 (F:\WorkSpace\zxkj\target\classes started by admin in F:\WorkSpace\zxkj)
+2019-04-23 19:42:06.642 [restartedMain] INFO  com.zxkj.ZxkjApplication - The following profiles are active: dev
+2019-04-23 19:42:06.702 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-23 19:42:06.702 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-23 19:42:08.188 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 19:42:08.190 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 19:42:08.232 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019-04-23 19:42:08.746 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$24b41afb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 19:42:08.932 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.zxkj.config.RedisConfig$$EnhancerBySpringCGLIB$$bc92aed5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 19:42:09.440 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-04-23 19:42:09.455 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-04-23 19:42:09.464 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-23 19:42:09.464 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-23 19:42:09.692 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring embedded WebApplicationContext
+2019-04-23 19:42:09.692 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2990 ms
+2019-04-23 19:42:11.603 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 19:42:11.761 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-23 19:42:12.184 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-23 19:42:12.223 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-04-23 19:42:12.246 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path '/zxkj'
+2019-04-23 19:42:12.248 [restartedMain] INFO  com.zxkj.ZxkjApplication - Started ZxkjApplication in 6.021 seconds (JVM running for 8.326)
+2019-04-23 19:42:23.911 [http-nio-80-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 19:42:23.911 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-23 19:42:23.923 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-04-23 19:42:23.950 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 19:42:23.950 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 19:42:23.950 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 19:42:24.004 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-23 19:42:24.112 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-23 19:42:24.525 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - RESPONSE : hotel
+2019-04-23 19:48:11.290 [http-nio-80-exec-5] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 19:48:11.290 [http-nio-80-exec-5] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 19:48:11.290 [http-nio-80-exec-5] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 19:48:11.466 [http-nio-80-exec-5] INFO  com.zxkj.aop.WebLogAspect - RESPONSE : hotel
+2019-04-23 20:20:25.294 [restartedMain] INFO  com.zxkj.ZxkjApplication - Starting ZxkjApplication on DESKTOP-UAV5U1C with PID 5928 (F:\WorkSpace\zxkj\target\classes started by admin in F:\WorkSpace\zxkj)
+2019-04-23 20:20:25.296 [restartedMain] INFO  com.zxkj.ZxkjApplication - The following profiles are active: dev
+2019-04-23 20:20:25.339 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-23 20:20:25.339 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-23 20:20:26.917 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 20:20:26.919 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 20:20:26.955 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+2019-04-23 20:20:27.305 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c1325f74] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 20:20:27.476 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.zxkj.config.RedisConfig$$EnhancerBySpringCGLIB$$5910f34e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 20:20:27.904 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-04-23 20:20:27.914 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-04-23 20:20:27.922 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-23 20:20:27.922 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-23 20:20:28.040 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring embedded WebApplicationContext
+2019-04-23 20:20:28.040 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2701 ms
+2019-04-23 20:20:29.658 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 20:20:29.805 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-23 20:20:30.218 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-23 20:20:30.257 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-04-23 20:20:30.281 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path '/zxkj'
+2019-04-23 20:20:30.283 [restartedMain] INFO  com.zxkj.ZxkjApplication - Started ZxkjApplication in 5.44 seconds (JVM running for 6.65)
+2019-04-23 20:20:42.508 [http-nio-80-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 20:20:42.508 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-23 20:20:42.519 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-04-23 20:20:42.546 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 20:20:42.547 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 20:20:42.547 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 20:20:42.591 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-23 20:20:42.673 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-23 20:20:43.087 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - RESPONSE : hotel
+2019-04-23 20:24:51.645 [restartedMain] INFO  com.zxkj.ZxkjApplication - Starting ZxkjApplication on DESKTOP-UAV5U1C with PID 13720 (F:\WorkSpace\zxkj\target\classes started by admin in F:\WorkSpace\zxkj)
+2019-04-23 20:24:51.648 [restartedMain] INFO  com.zxkj.ZxkjApplication - The following profiles are active: dev
+2019-04-23 20:24:51.694 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-23 20:24:51.694 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-23 20:24:53.194 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 20:24:53.196 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 20:24:53.236 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2019-04-23 20:24:53.541 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8b56e4a5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 20:24:53.678 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.zxkj.config.RedisConfig$$EnhancerBySpringCGLIB$$2335787f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 20:24:54.110 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-04-23 20:24:54.120 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-04-23 20:24:54.127 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-23 20:24:54.127 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-23 20:24:54.244 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring embedded WebApplicationContext
+2019-04-23 20:24:54.244 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2549 ms
+2019-04-23 20:24:55.805 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 20:24:55.947 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-23 20:24:56.322 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-23 20:24:56.358 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-04-23 20:24:56.379 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path '/zxkj'
+2019-04-23 20:24:56.381 [restartedMain] INFO  com.zxkj.ZxkjApplication - Started ZxkjApplication in 5.145 seconds (JVM running for 7.426)
+2019-04-23 20:25:03.914 [http-nio-80-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 20:25:03.914 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-23 20:25:03.926 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-04-23 20:25:03.952 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 20:25:03.952 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 20:25:03.952 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 20:25:03.998 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-23 20:25:04.077 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-23 20:25:04.529 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - RESPONSE : hotel
+2019-04-23 20:27:48.779 [restartedMain] INFO  com.zxkj.ZxkjApplication - Starting ZxkjApplication on DESKTOP-UAV5U1C with PID 15468 (F:\WorkSpace\zxkj\target\classes started by admin in F:\WorkSpace\zxkj)
+2019-04-23 20:27:48.782 [restartedMain] INFO  com.zxkj.ZxkjApplication - The following profiles are active: dev
+2019-04-23 20:27:48.870 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-04-23 20:27:48.871 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-04-23 20:27:50.655 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-04-23 20:27:50.657 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-04-23 20:27:50.698 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2019-04-23 20:27:51.049 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d00b9b12] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 20:27:51.184 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.zxkj.config.RedisConfig$$EnhancerBySpringCGLIB$$67ea2eec] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-23 20:27:51.618 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-04-23 20:27:51.629 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2019-04-23 20:27:51.636 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-04-23 20:27:51.636 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-04-23 20:27:51.754 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring embedded WebApplicationContext
+2019-04-23 20:27:51.754 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2878 ms
+2019-04-23 20:27:53.419 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-23 20:27:53.561 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-04-23 20:27:53.936 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-04-23 20:27:53.970 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2019-04-23 20:27:53.990 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path '/zxkj'
+2019-04-23 20:27:53.992 [restartedMain] INFO  com.zxkj.ZxkjApplication - Started ZxkjApplication in 5.91 seconds (JVM running for 7.669)
+2019-04-23 20:28:01.180 [http-nio-80-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/zxkj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-04-23 20:28:01.181 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-04-23 20:28:01.191 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-04-23 20:28:01.248 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - URL : http://localhost/zxkj/hotel/list/3
+2019-04-23 20:28:01.248 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - HTTP_METHOD : GET
+2019-04-23 20:28:01.248 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - IP : 0:0:0:0:0:0:0:1
+2019-04-23 20:28:01.298 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-04-23 20:28:01.388 [http-nio-80-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-04-23 20:28:01.864 [http-nio-80-exec-1] INFO  com.zxkj.aop.WebLogAspect - RESPONSE : hotel
